@@ -1,7 +1,7 @@
 ﻿// Показать натуральные числа от 1 до N, N задано
 
 Console.WriteLine("Введите число N: ");
-int number = Convert.ToInt16(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
 string ShowNumber(int n)
 {
