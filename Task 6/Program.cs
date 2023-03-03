@@ -5,7 +5,6 @@ int GetNumber(string message)
    int number = int.Parse(Console.ReadLine()?? "");
    return number;
 }
-// Метод подсчета функции Аккермана
 int AckermanFunction(int m, int n)
 {
   if (m == 0)
